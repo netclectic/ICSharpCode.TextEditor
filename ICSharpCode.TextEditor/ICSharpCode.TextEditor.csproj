@@ -16,10 +16,64 @@
     <PackageId>ICSharpCode.TextEditor</PackageId>
     <PackageReleaseNotes></PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
-    <AssemblyVersion>5.0.0.0</AssemblyVersion>
-    <Version>5.0.0</Version>
+    <AssemblyVersion>5.0.1.0</AssemblyVersion>
+    <Version>5.0.1</Version>
     <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\ASPX.xshd" />
+    <None Remove="Resources\BAT-Mode.xshd" />
+    <None Remove="Resources\Boo.xshd" />
+    <None Remove="Resources\Coco-Mode.xshd" />
+    <None Remove="Resources\copyToolStripMenuItem.png" />
+    <None Remove="Resources\CPP-Mode.xshd" />
+    <None Remove="Resources\CSharp-Mode.xshd" />
+    <None Remove="Resources\cutToolStripMenuItem.png" />
+    <None Remove="Resources\HTML-Mode.xshd" />
+    <None Remove="Resources\ICSharpCode.TextEditor.snk" />
+    <None Remove="Resources\Java-Mode.xshd" />
+    <None Remove="Resources\JavaScript-Mode.xshd" />
+    <None Remove="Resources\Mode.xsd" />
+    <None Remove="Resources\pasteToolStripMenuItem.png" />
+    <None Remove="Resources\Patch-Mode.xshd" />
+    <None Remove="Resources\PHP-Mode.xshd" />
+    <None Remove="Resources\Python-Mode.xshd" />
+    <None Remove="Resources\RightArrow.cur" />
+    <None Remove="Resources\SQL-Mode.xshd" />
+    <None Remove="Resources\SyntaxModes.xml" />
+    <None Remove="Resources\Tex-Mode.xshd" />
+    <None Remove="Resources\TextEditorControl.bmp" />
+    <None Remove="Resources\VBNET-Mode.xshd" />
+    <None Remove="Resources\XML-Mode.xshd" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ASPX.xshd" />
+    <EmbeddedResource Include="Resources\BAT-Mode.xshd" />
+    <EmbeddedResource Include="Resources\Boo.xshd" />
+    <EmbeddedResource Include="Resources\Coco-Mode.xshd" />
+    <EmbeddedResource Include="Resources\copyToolStripMenuItem.png" />
+    <EmbeddedResource Include="Resources\CPP-Mode.xshd" />
+    <EmbeddedResource Include="Resources\CSharp-Mode.xshd" />
+    <EmbeddedResource Include="Resources\cutToolStripMenuItem.png" />
+    <EmbeddedResource Include="Resources\HTML-Mode.xshd" />
+    <EmbeddedResource Include="Resources\ICSharpCode.TextEditor.snk" />
+    <EmbeddedResource Include="Resources\Java-Mode.xshd" />
+    <EmbeddedResource Include="Resources\JavaScript-Mode.xshd" />
+    <EmbeddedResource Include="Resources\Mode.xsd" />
+    <EmbeddedResource Include="Resources\pasteToolStripMenuItem.png" />
+    <EmbeddedResource Include="Resources\Patch-Mode.xshd" />
+    <EmbeddedResource Include="Resources\PHP-Mode.xshd" />
+    <EmbeddedResource Include="Resources\Python-Mode.xshd" />
+    <EmbeddedResource Include="Resources\RightArrow.cur" />
+    <EmbeddedResource Include="Resources\SQL-Mode.xshd" />
+    <EmbeddedResource Include="Resources\SyntaxModes.xml" />
+    <EmbeddedResource Include="Resources\Tex-Mode.xshd" />
+    <EmbeddedResource Include="Resources\TextEditorControl.bmp" />
+    <EmbeddedResource Include="Resources\VBNET-Mode.xshd" />
+    <EmbeddedResource Include="Resources\XML-Mode.xshd" />
+  </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Update="Properties\Resources.resx">
